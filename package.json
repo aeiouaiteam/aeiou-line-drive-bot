@@ -1,0 +1,17 @@
+{
+  "name": "aeiou-line-drive-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LINE <-> Google Drive bot: logs LINE chats to Drive, and posts prepared Google Docs back to one LINE group",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "google-login": "node scripts/google-login.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1"
+  }
+}
